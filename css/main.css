@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Oswald:wght@300;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  padding: 20px 0px;
+  background: white;
+  margin: auto;
+  position: relative;
+}
+.container h1 {
+  margin-top: 50px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #494949;
+  font-size: 50px;
+}
+.container .cards {
+  width: 90%;
+  padding: 20px 0px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.container .cards .cards_api {
+  width: 450px;
+  padding: 20px 0px;
+  background: #272727;
+  border: 2px solid rgba(231, 40, 40, 0.274);
+  box-shadow: 0px 0px 10px #0a0a0a;
+  border-radius: 10px;
+  margin: 20px;
+}
+.container .cards .cards_api .title {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 30px;
+}
+.container .cards .cards_api .contBase {
+  padding: 5px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.container .cards .cards_api .contBase .cint_image {
+  width: 180px;
+  height: 180px;
+  margin: auto;
+  border-radius: 100%;
+}
+.container .cards .cards_api .contBase .contdatos {
+  margin-top: 10px;
+  width: 50%;
+  padding: 5px 20px;
+  font-size: 11px;
+}
+.container .cards .cards_api .contBase .contdatos .cajasd {
+  font-weight: 600;
+  color: white;
+}
+.container .cards .cards_api .contBase .contdatos .cajasd .cajaDatos {
+  margin-left: 5px;
+  font-weight: 300;
+  color: yellow;
+}
+@media (min-width: 20px) and (max-width: 720px) {
+  .container .cards .cards_api .contBase .contdatos {
+    width: 80%;
+  }
+}
+.container .boton {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: none;
+  background: brown;
+  color: white;
+  font-weight: 600;
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  text-transform: uppercase;
+  transition: 0.5s ease all;
+}
+.container .boton:hover {
+  border: 1px solid brown;
+  box-shadow: 0px 0px 50px brown;
+  cursor: pointer;
+}
+@media (min-width: 20px) and (max-width: 720px) {
+  .container .boton {
+    top: 130px;
+    right: 20px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
